@@ -1,0 +1,39 @@
+
+/*si la ventana es menor a 600px*/
+@media only screen and (max-width: 600px){
+  .imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    width: 40%;
+    height: 40%;
+  }
+
+  h2{
+    font-size: 24px;
+    color: red;
+    text-align: center;
+  }
+ 
+}
+.margin{
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imagen{
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+h2{
+  font-size: 18px;
+  color: red;
+  text-align: center;
+}

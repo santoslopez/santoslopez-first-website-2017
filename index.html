@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Santos Lopez</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="static/img/favicon.png">
+
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,maximum-scale=0.5,minimum-scale=0.5,user-scalable=no">
+
+    <meta name="description" content="Estudiante de &uacute;ltimo a&ntilde;o de Ingenier&iacute;a en Sistemas de Computaci&oacute;n. Desarrollador de software con base de datos">
+    <meta name="keywords" content="Software Engineering, Santos Lopez, Desarrollador de software" />
+
+    <meta name="robots" content="index">
+
+    <meta property="og:site_name" href="Santos Lopez - Software Engineering">
+    <meta property="og:type" content="Software Engineering">
+    <meta property="og:title" content="Santos Lopez">
+    <meta property="og:url" content="https://santoslopez.ml">
+
+    <meta property="og:description" content="Santos Lopez - Desarrollador de software">
+
+    <link rel="shortlink" href="https://santoslopez.ml">
+    <link rel="canonical" href="https://santoslopez.ml">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <script type="text/javascript" src="js/design.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="css/design.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-214860089-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-214860089-1');
+    </script>
+    <!-- End Google Analytics -->
+
+</head>
+<body>
+    <div id="contents">
+    </div>
+
+    <div class="container">
+
+        <div id="acerca" style="display:none;" class="row section">
+
+            <script>
+              $('#acerca').load("./components/acerca.html");
+            </script>
+
+        </div>
+
+        <div id="beyond" style="display:none;" class="row section">
+        	<script>
+        		$('#beyond').load("./components/beyond.html");
+        	</script>
+        </div>
+
+        <div id="proyectos" style="display:none;" class="row section">
+          <h1>Proyectos</h1>
+
+          <strong>Tengo una variedad de proyectos, siendo algunos de c&oacute;digo abierto</strong> que pueden ver en mi perfil de <a href="https://github.com/santoslopez" title="Github Santos Lopez">github</a>
+          <br>
+          <h2>Wiki</h2>
+          Sistema que simula el funcionamiento de <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" title="Wikipedia">Wikipedia.</a>
+          Permite buscar, crear, editar y mostrar p&aacute;ginas. El proyecto est&aacute; realizado con el Framework Django. En la pr&aacute;ctica ser&iacute;a tedioso
+          si todas las p&aacute;ginas de Wikipedia se muestran en HTML, por esto se utiliz&oacute; un sistema m&aacute;s ligero y amigable llamado Markdown, aunque
+          Wikipedia implementa un sistema llamado Wikitext.
+
+          <div>
+          <details>
+            <summary class="accordion-item" style="background:#E5F0FF"><strong>Leer m&aacute;s</strong></summary>
+            Proyecto realizado para el curso de <strong>CS50 is Web Programming with Python and JavaScript</strong> de la Universidad de Harvard
+            con los siguientes <a href="https://cs50.harvard.edu/web/2020/projects/1/wiki/" title="CS50 Harvard web programming 2021">requerimientos.</a>
+
+          </details>
+          </div>
+          <a href="https://youtu.be/wzZiWGSkkUs" title="CS50 Web Project wiki 2021"><img src="static/img/contact-youtube.png" class="zoomImagen youtube" alt="CS50 Web 2021 Proyect wiki funcionamiento">Ver funcionamiento</a>
+
+          <h2 class="titleH2">Buscador</h2>
+          Sistema realizado en Html, CSS y Boostrap que permite realizar b&uacute;squeda por medio de un formulario hacia Google. El proyecto permite realizar
+          b&uacute;squedas por medio de im&aacute;genes, texto y b&uacute;squeda avanzada, trata de verse lo m&aacute;s posible al motor de b&uacute;squeda de Google y su funcionamiento.
+
+          <div>
+          <details>
+            <summary class="accordion-item" style="background:#E5F0FF"><strong>Leer m&aacute;s</strong></summary>
+            Proyecto realizado para el curso de <strong>CS50 is Web Programming with Python and JavaScript</strong> de la Universidad de Harvard
+            con los siguientes <a href="https://cs50.harvard.edu/web/2020/projects/0/search/" title="CS50 Web Project serch 2021">requerimientos.</a>
+          </details>
+           </div>
+
+          <a href="https://youtu.be/ZHsaL21PtCk" title="CS50 Web Project serch 2021"><img src="static/img/contact-youtube.png" class="zoomImagen youtube" alt="CS50 Web 2021 Project search funcionamiento">Ver funcionamiento</a>
+
+          <h2 class="titleH2"><a href="https://santoslopez.github.io/crimson">Crimson</a></h2>
+          Sitio donde comparto un poco de m&iacute; vida personal. El sitio tiene al alcance los links de drives de cursos de universidad y online que he llevado con sus respectivos apuntes personales y
+          se adapta a todos los dispositivos m&oacute;viles y web.
+
+           <div id="disqus_thread"></div>
+           <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"  title="Disqus ref noscript">comments powered by Disqus.</a></noscript>
+
+        </div>
+
+        <div id="cursos" style="display:none;" class="row section">
+          <strong>Cursos que he llevado de forma presencial y online.</strong>
+          <script>
+            $('#cursos').load("./components/courses.html");
+          </script>
+
+        </div>
+    </div>
+
+    <script src="js/disqus.js"></script>
+
+    <!--script id="dsq-count-scr" src="https://santoslopez.disqus.com/count.js" async></script-->
+
+</body>
+
+</html>
